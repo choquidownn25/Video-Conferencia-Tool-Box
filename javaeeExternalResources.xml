@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://schemas.android.com/tools" location="http://schemas.android.com/tools" />
+  </component>
+</application>

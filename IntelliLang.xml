@@ -1,0 +1,25 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="AIDL" injector-id="xml">
+      <display-name>RelativeLayout/@schemaLocation</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("schemaLocation")).withNamespace(string().equalTo("http://www.w3.org/2001/XMLSchema-instance")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>android.support.constraint.ConstraintLayout</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().matches("android.support.constraint.ConstraintLayout"))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>com.proyecto.service.io2014.ui.SpotlightView/@mask</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("mask")).withNamespace(string().equalTo("http://schemas.android.com/apk/res-auto")).withParent(xmlTag().withLocalName(string().matches("com.proyecto.service.io2014.ui.SpotlightView")))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>item/@name</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("name")).withParent(xmlTag().withLocalName(string().equalTo("item")))]]></place>
+    </injection>
+  </component>
+</application>

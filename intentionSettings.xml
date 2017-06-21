@@ -1,0 +1,21 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Imports/Add Single-Member Static Import" />
+    <ignoreAction name="Imports/Expand Static Import" />
+    <ignoreAction name="Refactorings/Introduce local variable" />
+    <ignoreAction name="Control Flow/Edit method contract" />
+    <ignoreAction name="Language Injection/Inject Language/Reference" />
+    <ignoreAction name="Control Flow/Add Annotation" />
+    <ignoreAction name="Declaration/Split Declaration" />
+    <ignoreAction name="Android/Extract string resource" />
+    <ignoreAction name="Imports/Add On Demand Static Import" />
+    <ignoreAction name="Modifiers/Make Public" />
+    <ignoreAction name="Android/Override Resource in Other Configuration..." />
+    <ignoreAction name="Android/Insert App Indexing API Code" />
+    <ignoreAction name="Other/Make Call Chain Into Call Sequence" />
+    <ignoreAction name="Modifiers/Make Private" />
+    <ignoreAction name="Modifiers/Make Protected" />
+    <ignoreAction name="Declaration/Generate delegated method with default parameter value" />
+    <ignoreAction name="Java/Other/Add Clarifying Parentheses" />
+  </component>
+</application>
