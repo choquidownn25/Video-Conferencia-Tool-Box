@@ -5,6 +5,14 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="AndroidDataBinding" injector-id="xml">
+      <display-name>RelativeLayout/@context</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("context")).withNamespace(string().equalTo("http://schemas.android.com/tools")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
+    </injection>
+    <injection language="AIDL" injector-id="xml">
+      <display-name>RelativeLayout/@layout_behavior</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("layout_behavior")).withNamespace(string().equalTo("http://schemas.android.com/apk/res-auto")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
+    </injection>
     <injection language="AIDL" injector-id="xml">
       <display-name>RelativeLayout/@schemaLocation</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("schemaLocation")).withNamespace(string().equalTo("http://www.w3.org/2001/XMLSchema-instance")).withParent(xmlTag().withLocalName(string().equalTo("RelativeLayout")))]]></place>
